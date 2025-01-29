@@ -1,0 +1,64 @@
+p {
+    color:grey;
+    background-color:aquamarine;
+  }
+
+.spanstyle {
+    color: black;
+    background-color:aqua;
+    font-style: italic;
+}
+
+h1 {
+    color:red;
+}
+
+h2 {
+    color:brown;
+    font-style: oblique;
+}
+
+h3 {
+    color:burlywood;
+    font-style: italic;
+}
+
+h4 {
+    color:coral;
+    font-style: italic;
+}
+
+a {
+    color: red;
+  }
+  
+  a:link {
+    color: red;
+  }
+  
+  a:visited {
+    color: green;
+  }
+  
+  a:active {
+    color: yellow;
+  }
+  
+  a:hover {
+    color: yellow;
+  }        
+
+b {
+    color:black;
+}
+
+#specialid {
+    color:blueviolet;
+    background-color: blanchedalmond;
+    font-style: oblique;
+}
+
+#evilid {
+    color: red;
+    background-color: black;
+}
