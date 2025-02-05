@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(portrait-of-man-holding-fish-while-standing-in-boat-TTJCXX.jpg);
+}
+
+p {
+    text-align: justify;
+    color:grey;
+    background-color:aquamarine;
+  }
+
+.imgbox {
+  border: 10px solid black;
+  padding: 2px;
+  background-color: yellow;
+}
+
+.spanstyle {
+    color: black;
+    background-color:aqua;
+    font-style: italic;
+}
+
+h1, h2, h3, h4 {
+  color: orange;
+  font-style: italic;
+  font-weight: normal;
+}
+
+h4 {
+    text-align: center;
+}
+
+a {
+    color: red;
+  }
+  
+  a:link {
+    color: red;
+  }
+  
+  a:visited {
+    color: green;
+  }
+  
+  a:active {
+    color: yellow;
+  }
+  
+  a:hover {
+    color: yellow;
+  }        
+
+b {
+    color:black;
+}
+
+#specialid {
+    color:blueviolet;
+    background-color: blanchedalmond;
+    font-style: oblique;
+}
+
+#evilid {
+    color: red;
+    background-color: black;
+}
