@@ -1,0 +1,62 @@
+#topId {
+    background-color: rgb(49, 139, 241);
+}
+
+#botId {
+    background-color: yellow;
+}
+
+#mintId {
+    background-color: mediumspringgreen;
+}
+
+#redId {
+    color: red;
+}
+
+.orangestyle {
+    color: orange;
+    font-weight: bold;
+}
+
+.bluestyle {
+    color: blue;
+    font-weight: bold;
+}
+
+h1{
+    color: white;
+    font-weight: bold;
+}
+
+h2 {
+    color: blue;
+}
+
+h3 {
+    background-color: yellow;
+}
+
+h4 {
+    color: yellow;
+    background-color: green;
+}
+
+h5 {
+    color: red;
+}
+  
+a {
+    color: green;
+    text-decoration-line: none;
+}
+
+a:link {
+    color: green;
+    text-decoration-line: none;
+}
+
+a:hover {
+    color: red;
+    text-decoration-line: underline;
+}        
