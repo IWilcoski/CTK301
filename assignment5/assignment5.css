@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(a5bg.png);
+}
+
+main {
+    border-top: 30px solid white;
+    border-bottom: 30px solid white;
+    border-right: 20px solid white;
+    border-left: 20px solid white;
+    background-color: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+p {
+    text-align: justify;
+}
+
+main a {
+    font-weight: bold;
+    color: blue;
+    text-decoration: none;
+}
+  
+main a:link {
+    font-weight: bold;
+    color: blue;
+    text-decoration: none;
+}
+  
+main a:hover {
+    font-weight: bold;
+    color: red;
+    text-decoration: underline;
+}        
+
+header {
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    border-right: 1px solid white;
+    border-left: 30px solid white;
+    background-color: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+footer {
+    padding: 10px;
+    border: 10px solid white;
+    background-color: darkblue;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+footer p {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+}
+
+h1 {
+
+    font-weight: normal;
+}
+
+h2 {
+    font-weight: bold;
+    padding-bottom: 10px;
+    border-bottom: 2px solid black;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    border: 1px solid black;
+    width: 200px;
+    padding: 0px;
+    margin-right: 10px;
+    background-color: darkblue;
+    color: white;
+    display: inline-block;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+
+nav li a:hover {
+    background-color: blue;
+}
