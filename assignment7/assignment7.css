@@ -1,0 +1,123 @@
+body{
+    background-color: gray;
+}
+
+#wrapper{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    width: 960px;
+    margin: 1em auto;
+    grid-column-gap: 12px;
+    border: solid darkblue 3px;
+    background-color: white;
+}
+
+.lefty{
+    float: left;
+    margin-right: 12px;
+    border: solid darkblue 3px;
+}
+
+.righty{
+    float: right;
+    margin-left: 12px;
+    border: solid darkblue 3px;
+}
+
+header {
+    padding-left: 12px;
+    grid-column: span 12;
+    background-image: linear-gradient(lightblue, darkblue);
+}
+
+nav {
+    background-image: linear-gradient(lightblue, darkblue);
+    border-top: solid darkblue 3px;
+    border-bottom: solid darkblue 3px;
+    grid-column: span 12;
+}
+
+nav ul{
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    
+}
+nav li{
+    display: inline-block;
+    text-align: center;
+
+}
+
+nav li a{
+    display: block;
+    text-decoration: none;
+    width: 240px;
+    border-right: solid 3px darkblue;
+    background-image: linear-gradient(lightblue, darkblue);
+    padding: 10px;
+    font-weight: Bold;
+    font-family: Helvetica,Arial,sans-serif;
+    color: lightblue;
+}
+
+nav li a:hover{
+    color: white;
+    background-image: linear-gradient(white, red);
+}
+
+h1 a {
+    color: lightblue;
+    text-decoration: none;
+}
+  
+h1 a:hover {
+    color: blue;
+}  
+
+h2 {
+    color: blue;
+    border-bottom: solid blue 3px;
+}
+
+aside {
+    padding: 0 12px 0 12px;
+    grid-column: span 4;
+    background-color: lightblue;
+}
+
+aside p{
+    text-align: justify;
+    font-weight: bold;
+}
+
+main {
+    margin: 0 12px 0 12px;
+    grid-column: span 8;
+}
+
+.gallery {
+    grid-column: span 4;
+}
+
+.resize {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    border-top: solid darkblue 3px;
+    padding: 12px;
+    grid-column: span 12;
+    background-color: red;
+}
+
+p a {
+    font-weight: bold;
+    color: red;
+    text-decoration: none;
+}
+  
+p a:hover {
+    color: blue;
+}  
