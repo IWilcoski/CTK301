@@ -1,0 +1,158 @@
+body{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    margin: 1em auto;
+    grid-column-gap: 12px;
+}
+
+header{
+    align-content: center;
+    grid-column: span 12;
+    height: 70px;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+header ul{
+    grid-column: span 9;
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+
+header li{
+    display: inline-block;
+    text-align: center;
+}
+
+header li a{
+    margin-right: 19px;
+    display: block;
+    text-decoration: none;
+    width: 200px;
+    border: solid 3px black;
+    background-color: whitesmoke;
+    padding: 10px;
+    font-weight: Bold;
+    font-family: Helvetica,Arial,sans-serif;
+}
+
+.title {
+    margin: none;
+    border: none;
+    font-size: 40px;
+    width: 300px;
+}
+
+.button {
+    margin-bottom: 10px;
+}
+
+main {
+    grid-column: span 12;
+}
+
+h2 {
+    font-family: "Roboto Condensed", sans-serif;
+    align-content: center;
+    text-align: center;
+    grid-column: span 12;
+    height: 50px;
+    background-color: lightslategrey;
+}
+
+#Carousel{
+    margin: -20px 0px -10px 0px;
+    grid-column: span 12;
+    height: 350px;
+    background-color: black;
+}
+
+nav {
+    padding: 20px 8px 20px 20px;
+    grid-column: span 12;
+    height: 250px;
+    background-color: darkblue;
+    margin-bottom: -20px;
+    align-content: center;
+}
+
+h1 {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size:xx-large;
+}
+
+nav h1 {
+    margin-left: 184px;
+    color: white;
+}
+
+nav p {
+    color: white;
+}
+
+.righty{
+    height: 172px;
+    width: 172px;
+    float: right;
+    margin-left: 12px;
+    border: solid black 3px;
+}
+
+span{
+    grid-column: span 12;
+    height: 318px;
+    background-color: black;
+    align-content: center;
+    text-align: center;
+}
+
+span li{
+    display: inline-block;
+    text-align: center;
+}
+
+span li a {
+    margin-right: 26px;
+    display: block;
+    text-decoration: none;
+    height: 270px;
+    width: 270px;
+    background-color: lightgrey;
+    padding: 10px;
+    font-weight: Bold;
+    font-family: Helvetica,Arial,sans-serif;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+span li a:hover {
+    height: 280px;
+    width: 280px;
+}
+
+footer{
+    text-align: center;
+    grid-column: span 12;
+    height: 112px;
+    background-color: gray;
+    margin-bottom: -20px;
+    padding: 0px 20px 20px 20px;
+}
+
+footer h1 {
+    margin-bottom: 0px;
+}
+
+footer a {
+    color: darkblue;
+    font-size: 50px;
+    transition: .2s;
+}
+
+footer a:hover {
+    color: white;
+    font-size: 60px;
+}
