@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio Main</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.autoplay.css"/>
+
+    <link href="assignment12.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+    <header>
+        <ul>
+            <li><a class="title" href="#">Isaiah Wilcoski</a></li> <li><a href="#">About Me</a></li> <li><a href="#">Projects</a></li> <li><a href="#">Resume</a></li> <li><a href="#">Contact</a></li>
+        </ul>
+    </header>
+    <main>
+        <h2>Highlighted Piece</h2>
+        <!-- <video id="Carousel" width="1600" height="350" muted autoplay loop="auto" > <source src="WinterJamCroppedRecording.mp4" type="video/mp4"> </video> -->
+        <div class="f-carousel" id="myCarousel">
+            <div class="f-carousel__slide"><img src="Screen1.png" alt="Start Screen"></div>
+            <div class="f-carousel__slide"><img src="Screen2.png" alt="Gameplay Screen"></div>
+            <div class="f-carousel__slide"><img src="Screen3.png" alt="Game Over Screen"></div>
+        </div>
+        <nav>
+            <img class="righty" src="" alt="Me" />
+            <h1>About Me</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit culpa dolore, atque voluptas rem voluptatem earum ea nulla, repudiandae at optio incidunt? Voluptatem, repellendus? Eos iusto quam eveniet? Vel, distinctio.</p>
+        </nav>
+        <h2>My Work</h2>
+        <span>
+            <ul>
+                <li><a href="#">Game 1</a></li> <li><a href="#">Game 2</a></li> <li><a href="#">Game 3</a></li> <li><a href="#">Game 4</a></li>
+            </ul>
+        </span>
+    </main>
+    <footer>
+        <h1>Contact Me</h1> 
+        <a class="bi bi-instagram" href="https://instagram.com" target="_blank"></a>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.autoplay.umd.js"></script>
+    <script>
+        const container = document.getElementById("myCarousel");
+        const options = { infinite: true };
+        //Infinite allows carousel looping
+        new Carousel(document.getElementById("myCarousel"), {
+            Autoplay : {
+            timeout : 2000
+            }
+        }, {
+            Autoplay
+        });
+    </script>
+</body>
+</html>
