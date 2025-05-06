@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>SpaceGame</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
+
+    <link rel="stylesheet" href="Projects.css">
+</head>
+<body>
+    <header>
+        <a class="title" href="main.html">Isaiah Wilcoski</a>
+        <ul>
+            <li><a href="main.html#about">About Me</a></li> <li><a href="main.html#projects">Projects</a></li> <!-- <li><a href="main.html#">Resume</a></li> --> <li><a href="main.html#contact">Contact</a></li>
+        </ul>
+    </header>
+    <main class = "space">
+        <div class="box">
+            <h1>Space Game</h1>
+            <nav>
+                <h2>Engine Used: Unity</h2>
+                <h2>Language Used: C++</h2>
+                <p>My Space Game project was my first project using Unity and it was a 2D focused game, with arcade elements. Due to the parameters of the assignment, the games focus was less on menuing and UI, and more on gameplay and mechanics. In this project I implemented 2D Sprites, animations, sounds and pitching for variation, life systems, consumables, and enemy variation.</p>
+            </nav>
+            <a href="Space1.png" data-fancybox="gallery" data-caption="Early Game">
+                <img src="Space1Thumb.png" />
+            </a>
+        
+            <a href="Space2.png" data-fancybox="gallery" data-caption="Defensive Gameplay">
+                <img src="Space2Thumb.png" />
+            </a>
+        
+            <a href="Space3.png" data-fancybox="gallery" data-caption="Late Game">
+                <img src="Space3Thumb.png" />
+            </a>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.autoplay.umd.js"></script>
+    <script>
+        Fancybox.bind("[data-fancybox]", {});
+    </script>
+</body>
+</html>

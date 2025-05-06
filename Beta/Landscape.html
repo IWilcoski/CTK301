@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Landscape</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
+
+    <link rel="stylesheet" href="Projects.css">
+</head>
+<body>
+    <header>
+        <a class="title" href="main.html">Isaiah Wilcoski</a>
+        <ul>
+            <li><a href="main.html#about">About Me</a></li> <li><a href="main.html#projects">Projects</a></li> <!-- <li><a href="main.html#">Resume</a></li> --> <li><a href="main.html#contact">Contact</a></li>
+        </ul>
+    </header>
+    <main class = "land">
+        <div class="box">
+            <h1>Creating A Landscape</h1>
+            <nav>
+                <h2>Engine Used: Unreal</h2>
+                <h2>Language Used: Blueprint</h2>
+                <p>My Creating A Landscape project was one of my first style oriented Unreal projects. It focused on both developing a landscape and creating a way to traverse it, more specifically using mountain roads and a path through the woods in my case. In addition, elements like footsteps unique to the ground type were implemented to help in immersion, and a tunnel through the landscape tested my ability to insert objects through organic shapes.</p>
+            </nav>
+            <a href="Land1.png" data-fancybox="gallery" data-caption="Landscape #1">
+                <img src="Land1Thumb.png" />
+            </a>
+        
+            <a href="Land2.png" data-fancybox="gallery" data-caption="Landscape #2">
+                <img src="Land2Thumb.png" />
+            </a>
+        
+            <a href="Land3.png" data-fancybox="gallery" data-caption="Landscape #3">
+                <img src="Land3Thumb.png" />
+            </a>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.autoplay.umd.js"></script>
+    <script>
+        Fancybox.bind("[data-fancybox]", {});
+    </script>
+</body>
+</html>

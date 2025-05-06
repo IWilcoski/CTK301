@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>BuggedAndSorted</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
+
+    <link rel="stylesheet" href="Projects.css">
+</head>
+<body>
+    <header>
+        <a class="title" href="main.html">Isaiah Wilcoski</a>
+        <ul>
+            <li><a href="main.html#about">About Me</a></li> <li><a href="main.html#projects">Projects</a></li> <!-- <li><a href="main.html#">Resume</a></li> --> <li><a href="main.html#contact">Contact</a></li>
+        </ul>
+    </header>
+    <main class = "bug">
+        <div class="box">
+            <h1>Bugged and Sorted</h1>
+            <nav>
+                <h2>Engine Used: Unity</h2>
+                <h2>Language Used: C++</h2>
+                <p>Bugged and sorted is a project from ISU's Winter Break 2024 Game Jam in which I served as the sole programmer. It involved dragging robots off of conveyor belts and sorting them into various bins based on characteristics like wheels, radar, flight, screens, and defects. The project involved several sprite animations, a handful of simple sound effects for successes and failures, and score management.</p>
+            </nav>
+            <a href="Screen1.png" data-fancybox="gallery" data-caption="Start Screen">
+                <img src="Screen1Thumb.png" />
+            </a>
+        
+            <a href="Screen2.png" data-fancybox="gallery" data-caption="Gameplay Screen">
+                <img src="Screen2Thumb.png" />
+            </a>
+        
+            <a href="Screen3.png" data-fancybox="gallery" data-caption="Game Over Screen">
+                <img src="Screen3Thumb.png" />
+            </a>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.autoplay.umd.js"></script>
+    <script>
+        Fancybox.bind("[data-fancybox]", {});
+    </script>
+</body>
+</html>
